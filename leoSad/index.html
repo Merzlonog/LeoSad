@@ -8,6 +8,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap&subset=cyrillic-ext"
         rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>LeoSad</title>
 </head>
@@ -61,7 +63,7 @@
                 </div>
             </div>
             <div class="page_services services">
-                <a name="service"></a>
+                <a id="service"></a>
                 <div class="service-block__conteiner _container">
                     <h2 class="service-block__title">Какие услуги мы оказываем</h2>
                     <div class="service-block__text">Мы оказываем весь комплекс услуг от проектирования до полного
@@ -101,22 +103,26 @@
                         <div class="work-block__item">
                             <div class="work-block__item_number">1</div>
                             <div class="work-block__item_title">Выезд на участок</div>
-                            <div class="work-block__item_text">Договариваемся с Вами о встрече, выезжаем на объект, чтобы согласовать все подробности</div>
+                            <div class="work-block__item_text">Договариваемся с Вами о встрече, выезжаем на объект,
+                                чтобы согласовать все подробности</div>
                         </div>
                         <div class="work-block__item">
                             <div class="work-block__item_number">2</div>
                             <div class="work-block__item_title">Сбор информации</div>
-                            <div class="work-block__item_text">Собираем полную информацию об участке, делаем фотофиксацию и замер</div>
+                            <div class="work-block__item_text">Собираем полную информацию об участке, делаем
+                                фотофиксацию и замер</div>
                         </div>
                         <div class="work-block__item">
                             <div class="work-block__item_number">3</div>
                             <div class="work-block__item_title">Оформление договора</div>
-                            <div class="work-block__item_text">После изучения информации и согласования всех необходимых условий, заключаем договор</div>
+                            <div class="work-block__item_text">После изучения информации и согласования всех необходимых
+                                условий, заключаем договор</div>
                         </div>
                         <div class="work-block__item">
                             <div class="work-block__item_number">4</div>
                             <div class="work-block__item_title">Начало работ</div>
-                            <div class="work-block__item_text">Начинаем работу по проектированию сада, общаясь с Вами в онлайн или оффлайн формате</div>
+                            <div class="work-block__item_text">Начинаем работу по проектированию сада, общаясь с Вами в
+                                онлайн или оффлайн формате</div>
                         </div>
                     </div>
                 </div>
@@ -134,7 +140,9 @@
                             Высокая приживаемость
                         </h3>
                         <div class="survival-block__text">
-                           Наши растения выращенные в северо-западном регионе России имеют высокие показатели морозостойкости, имеют здоровую корневую систему, правильную форму кроны. Растут под постоянным контролем агрономов, что сокращает развитие заболеваний и вредителей. 
+                            Наши растения выращенные в северо-западном регионе России имеют высокие показатели
+                            морозостойкости, имеют здоровую корневую систему, правильную форму кроны. Растут под
+                            постоянным контролем агрономов, что сокращает развитие заболеваний и вредителей.
                         </div>
                     </div>
                 </div>
@@ -143,19 +151,35 @@
                 </div>
             </div>
             <div class="page_portfolio">
-                <a name="portfolio"></a>
+                <a id="portfolio"></a>
                 <div class="portfolio-block__container _container">
                     <h3 class="portfolio-block__title">Наше портфолио</h3>
+                    <div class="multiple-items">
+                        <div class="slide">
+                            <div class="slide_image">
+                                <img class="s_img" src="img/7P7TWW4gXvw.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_image"><img class="s_img" src="img/8dL5TIfhYSU.jpg" alt=""></div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_image"><img class="s_img" src="img/4GEw-IN_NFs.jpg" alt=""></div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_image"><img class="s_img" src="img/h7GPlC7Th6U.jpg" alt=""></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="page_contact">
-                <a name="contact"></a>
+                <a id="contact"></a>
                 <div class="contact-block__container _container">
                     <h3 class="contact-block__title">Контакты</h3>
                     <div class="contact-block__adres"><span>Адрес: </span>г. Сыктывкар, ул. Свободы, 35/75</div>
                     <div class="contact-block__phone">
                         <img class="contact-block_icon_phone" src="img/icon/call_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                        <a class="contact-block__number" href="tel:+7 908 717 25 97">+7 908 717 25 97</a>
+                        <a class="contact-block__number" href="tel:+79087172597">+7 908 717 25 97</a>
                     </div>
                     <div class="contact-block__mail">
                         <img class="contact-block_icon_mail" src="img/icon/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="">
@@ -173,11 +197,14 @@
             <div class="footer-block__container _container">
                 <div class="footer-block__body">
                     <a class="header__logo" href=""><img class="header__logo_img" src="img/icon/sad_1.png" alt=""></a>
-                    <a href="footer.html"><div class="footer-block__text">Политика конфиденциальности</div></a>
+                    <a href="footer.html">
+                        <div class="footer-block__text">Политика конфиденциальности</div>
+                    </a>
                 </div>
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="slick/slick.min.js"></script>
         <script src="script.js"></script>
     </div>
 </body>
